@@ -1,0 +1,29 @@
+/* 
+    Created on : 26/03/2019, 07:41:45
+    Author     : Manutenção Lira
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{background: #fbfbfb;}
+b{font-weight: 700;}
+ul, ol{list-style: none;}
+a{text-decoration: none;}
+img{vertical-align: middle;}
+
+/*Pequena alteração nos icones*/
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    position: relative;
+    top: .125em;
+}
